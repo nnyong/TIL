@@ -52,3 +52,38 @@ for filename in os.listdir('.'):
 ```
 
 getcwd(): 현재 디렉토리 가져오기.
+
+
+
+file.write, read 활용해서 역순 저장
+
+ssafy.txt
+
+1
+
+2
+
+3
+
+
+
+ssafy_reverse.txt
+
+3
+
+2
+
+1
+
+
+
+## Selector
+
+#PM_ID_ct > div.header > div.special_bg > div > div.area_logo > h1 > a > span
+
+예...?뭐라굽쇼?
+
+
+
+header를 배웠다! 후후!
+
