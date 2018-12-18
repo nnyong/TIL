@@ -6,7 +6,7 @@
 
 #### 조영현
 
-##### 메롱
+##### 2018.12.18
 
 ###### 안녕:)
 
@@ -30,9 +30,12 @@
   $ git push origin master
   //로그인 창 뜸.
 
+  `$ git push -u origin master                                        `
+
 * https://typora.io/
 
 * https://guides.github.com/features/mastering-markdown/  문서 작성 가이드
+* https://education.github.com/pack 학생에게 2년동안 무료로  github에서 제공해주는 것. 학교 이메일로 인증
 
 
 
@@ -65,6 +68,18 @@ git confit --global user.name 'nnyong'
 
 * ctrl+` : 터미널 창 띄우기
 * clear 입력 대신 ctrl+ L 사용 가능
+
+
+
+### 파일명 변경
+
+1. `os.chdir(r'폴더 주소')`
+2. `os.listdir('.')` 현재 working directory의 파일 목록 리스트로
+3. `os.random('바꾸고자하는 이름', '바꿀 이름')`
+
+
+
+
 
 
 
