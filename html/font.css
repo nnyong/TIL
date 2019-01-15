@@ -1,0 +1,12 @@
+.font{
+    /* 1. font-size */
+    font-size: 40px;
+    /* 2. font-style */
+    font-style: italic;
+    font-weight: 700; /* bold */
+    /* font-family: 'Times New Roman', Times, serif */
+    font-family: 'ZCOOL KuaiLe', cursive;
+    line-height: 1.5; /*font 사이즈에 비례*/
+    letter-spacing: -2px;
+    text-align: center;
+}

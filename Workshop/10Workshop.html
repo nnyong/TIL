@@ -1,0 +1,39 @@
+<!-- 09Workshop -->
+<!-- CSS -->
+<!-- Background -->
+<!-- * HTML -->
+<!-- Goal -->
+<!-- * CSS Selector를 이해한다. -->
+<!-- * CSS 프로퍼티를 이해한다. -->
+<!-- Problem -->
+<!-- Selector를 활용한 DOM 탐색 실습 -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        #ssafy > p:nth-child(2){ 
+        /*ssafy id 자식들 중 두 번째 자식. 부모의 두 번째 자식. 두 번째 자식이 만일 p타입이 아니면 안 고른다. 적용이 안됨.*/
+            color:red;
+        }
+        #ssafy > p:nth-of-type(2){ 
+        /*ssafy id 자식들 중 p 타입을 찾은 다음, p타입이 아닌 것은 제외. p타입 중 두 번째*/
+            color:blue;
+        }
+    </style>
+</head>
+<body>
+    <div id="ssafy">
+        <h2>어떤게 선택될까?</h2>
+        <p>첫번째 단락</p>
+        <p>두번째 단락</p>
+        <p>세번째 단락</p>
+        <p>네번째 단락</p>
+    </div>
+    
+</body>
+</html>

@@ -1,0 +1,15 @@
+div{
+    height: 200px;
+}
+
+.background-color{
+    background-color: blue;
+}
+
+.background-image{
+    background-image: url(images/건후.jpg);
+    background-position: center center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+}
