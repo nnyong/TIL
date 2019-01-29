@@ -59,3 +59,79 @@
   ```bash
   python manage.py startapp [앱 이름]
   ```
+
+
+
+* django 실행
+
+  ```
+  python manage.py runserver $IP:$PORT
+  ```
+
+
+
+* setting 설정
+
+  ```
+  ALLOWED_HOSTS = ['playground-nnyong.c9users.io']
+  
+  INSTALLED_APPS = [
+  		...
+      'posts.apps.PostsConfig'
+  ]
+  
+  LANGUAGE_CODE = 'ko-kr'
+  
+  TIME_ZONE = 'Asia/Seoul'
+  
+  ```
+
+
+
+
+### CRUD
+
+* posts내에 urls.py 생성
+
+* 기존 url.py 다음과 같이 설정
+
+  ```
+  from django.contrib import admin
+  from django.urls import path,include
+  from posts import views
+  
+  urlpatterns = [
+      path('posts/',include('posts.urls')),
+      path('admin/', admin.site.urls),
+  ]
+  ```
+
+* models 설정
+
+  ```
+  class Post(models.Model):
+      title=models.CharField(max_length=100)
+      content=models.TextField()
+  ```
+
+* Migration
+
+  * make migration
+
+    ```
+    python manage.py makemigrations
+    ```
+
+  * db적용
+
+    ```
+    python manage.py migrate
+    ```
+
+    * 모델 재설정 하면 migration 다시 해주어야 함.
+
+* 계정 설정
+
+  ```
+  python manage.py createsuperuser
+  ```
