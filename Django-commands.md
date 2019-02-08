@@ -1,3 +1,15 @@
+* 준비(c9에 python 설치하기)
+
+* https://gist.github.com/nwith
+
+  install_pyenv.sh 복붙
+
+  ```bash
+  pyenv global 3.6.7
+  python -V
+  ```
+
+
 ### 1. Django
 
 1. 폴더생성
