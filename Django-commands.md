@@ -147,3 +147,11 @@
   ```
   python manage.py createsuperuser
   ```
+
+* base.html 추가 시, setting.py에
+
+  ```python
+  'DIRS': [os.path.join(BASE_DIR,'[프로젝트이름]','templates')],
+  ```
+
+  
