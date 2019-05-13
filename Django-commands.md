@@ -5,6 +5,7 @@
   install_pyenv.sh 복붙
 
   ```bash
+  pyenv install 3.6.7
   pyenv global 3.6.7
   python -V
   ```
